@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("1590323-3840x2160-desktop-4k-the-punisher-tv-series-wallpaper.jpg") center/cover no-repeat;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    color: crimson;
+    text-shadow: 3px 3px 8px black;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 40px;
+}
+
+div {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px 50px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    color: #ff5555;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+}
